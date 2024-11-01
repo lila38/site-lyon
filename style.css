@@ -247,6 +247,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  text-align: justify;
   max-width: 77.5rem;
   background-color: #FDF9F5;
   padding: 1.875rem;
