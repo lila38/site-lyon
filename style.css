@@ -349,6 +349,9 @@ body {
       font-size: 0.75rem;
       padding: 0.64rem 1.2rem
     }
+   .text {
+      padding: 1rem 1rem 1rem 1rem;
+    }
     .font-h2 {
       font-size: 1.2rem;
     }
