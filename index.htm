@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Découvrir Lyon</title>
+</head>
+<body>
+
+  <!-- Menu de navigation -->
+  <header class="header">
+    
+     <img src="img/logo.png" class="logo" alt="Logo">
+
+        <nav class="navbar"  claria-label="Navigation principale">
+            <ul class="menu">
+              <li class="menu-item"><a href="#decouverte">Découverte</a></li>
+              <li class="menu-item"><a href="#histoire">Histoire</a></li>
+              <li class="menu-item"><a href="#sites">Sites touristiques</a></li>
+              <li class="menu-item"><a href="#gastronomie">Gastronomie</a></li>
+              <li class="menu-item"><a href="#guides">Nos guides</a></li>              
+            </ul>
+          </nav>
+
+          <div class="burger" onclick="toggleMenu()"> 
+            <div class="bar"></div> 
+            <div class="bar"></div> 
+            <div class="bar"></div> 
+          </div>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+      <h1 class="hero-title">Bienvenue à Lyon</h1>
+      <h2 class="hero-subtitle">Découvrez Lyon avec un expert local</h2>
+      <a href="#guides" aria-label="voir les guides" class="hero-button">Réservez votre visite</a>
+  </section>
+
+
+<main class="wrapper">
+  <!-- section histoire avec encadré et image -->
+      <div class="container" id="histoire">
+        <div>
+          <a href="#"><img src="img/pont-rouge-img.jpg" alt="pont du vieux Lyon" class="images"></a>
+        </div>
+
+          <div class="text">
+            <h2 class="font-h2">HISTOIRE DE LYON</h2>
+            <p class="font-p">Fondée en 43 avant J.-C. par les Romains sous le nom de Lugdunum, Lyon est une ville au riche passé historique. Capitale des Gaules sous l'Empire romain, elle était alors un carrefour commercial et culturel majeur, reliant la Méditerranée à l'Europe du Nord. Les vestiges de cette époque, tels que le Théâtre antique de Fourvière et l’amphithéâtre des Trois Gaules, témoignent encore aujourd’hui de son importance stratégique dans l’Empire romain.</p>
+
+            <p class="font-p">Au Moyen Âge, Lyon connaît une nouvelle prospérité grâce à sa position géographique et commerciale privilégiée. La ville devient un centre de foires internationales, attirant marchands et banquiers de toute l'Europe. Le pouvoir ecclésiastique s’étend avec l’édification de la Cathédrale Saint-Jean-Baptiste, cœur spirituel de la ville, et les conciles de Lyon renforcent son rôle religieux. À cette époque, la ville devient aussi un centre de production de soieries, industrie qui marquera profondément son histoire.</p>
+
+            <p class="font-p">La Renaissance fait de Lyon un foyer intellectuel et artistique important. Les imprimeurs lyonnais jouent un rôle de premier plan dans la diffusion des idées humanistes. Parallèlement, les grandes familles de banquiers et de marchands qui peuplent la ville transforment Lyon en un centre économique majeur de l’Europe. Le Vieux Lyon, quartier historique avec ses ruelles et ses traboules, conserve encore les traces de cette période fastueuse.</p>
+
+            <p class="font-p">Au XIXe siècle, Lyon devient un centre de révoltes ouvrières avec les célèbres révoltes des Canuts, les ouvriers de la soie qui se battent pour de meilleures conditions de travail. Ces événements font de Lyon un symbole de lutte sociale et marquent un tournant dans l'histoire industrielle de la ville.</p>
+            <p class="font-p">Durant la Seconde Guerre mondiale, Lyon joue un rôle crucial dans la Résistance française. Sous l'Occupation, la ville devient un haut lieu de la lutte contre l'oppresseur nazi, notamment grâce à des figures telles que Jean Moulin, un des chefs de la Résistance. Aujourd’hui, le Centre d'Histoire de la Résistance et de la Déportation rappelle cet héritage héroïque.</p>
+
+            <p class="font-p">Au fil des siècles, Lyon a su évoluer, en s'adaptant aux défis de chaque époque tout en préservant son patrimoine historique. Aujourd’hui, son passé se reflète dans ses monuments, ses musées, et ses quartiers, qui racontent l’histoire d’une ville en perpétuelle transformation, mais toujours fidèle à ses racines.</p>
+        </div>
+      </div>
+
+  <!-- div Monuments emblématiques et quartiers incontournables -->
+  <div class="container" id="sites">
+        <div class="container-monument">
+        <h2 class="font-h2">LES MONUMENTS EMBLEMATIQUES</h2>
+
+            <div class="alignement-img">
+                    <div class="content-img-text">
+                        <img src="img/monuments-historiques/basilique-notre-dame.jpg" alt="Basillique Notre-Dame" class="img-rond">
+                        <h3 class="font-h3">Basillique Notre-Dame</h3>
+                    </div>
+                    <div class="content-img-text">
+                        <img src="img/monuments-historiques/fourviere.jpg"  alt="Fourvière" class="img-rond">
+                        <h3 class="font-h3">Fourvière</h3>
+                    </div>
+                    <div class="content-img-text">
+                        <img src="img/monuments-historiques/opera-lyon.jpg" alt="Opéra de Lyon" class="img-rond">
+                        <h3 class="font-h3">Opéra de Lyon</h3>
+                    </div>
+            </div>
+        </div>
+        <div class="container-monument">
+          <h2 class="font-h2">LES QUARTIERS INCONTOURNABLES</h2>
+
+            <div class="alignement-img">
+                    <div class="content-img-text">
+                        <img src="img/monuments-historiques/vieux-lyon.jpg" alt="Vieux Lyon" class="img-rond">
+                        <h3 class="font-h3">Vieux Lyon</h3>
+                    </div>
+                    <div class="content-img-text">
+                        <img src="img/monuments-historiques/croix-rousse.jpg" alt="Croix-Rousse" class="img-rond">
+                        <h3 class="font-h3">Croix-Rousse</h3>
+                    </div>
+                    <div class="content-img-text">
+                        <img src="img/monuments-historiques/bellecour.jpg" alt="Bellecour" class="img-rond">
+                        <h3 class="font-h3">Bellecour</h3>
+                    </div>
+            </div>
+        </div>
+  </div>
+
+    <!-- div gastronomie -->
+    <div class="container" id="gastronomie">
+      <div>
+        <a href="#"><img src="img/img-gastronomie/img-gastronomie.jpg"  alt="plat d'un restaurant" class="images"></a>
+      </div>
+        <div class="text">
+            <h2 class="font-h2">La Gastronomie Lyonnaise</h2>
+            <h2 class="font-h2">Lyon, capitale mondiale de la gastronomie</h2>
+            <h3 class="font-h3">Une festin pour les sens</h3>
+            <p class="font-p">Lyon est souvent surnommée la capitale mondiale de la gastronomie, et à juste titre. Entre les bouchons lyonnais, ces petits restaurants traditionnels où l’on déguste des plats typiques comme la quenelle ou la cervelle de canut, et les halles de Lyon-Paul Bocuse, Lyon regorge de trésors culinaires.</p>
+
+            <h3 class="font-h3">Recommandations de lieux gourmands :</h3>
+            <p class="font-p">Les bouchons lyonnais : « Ne manquez pas les bouchons de Lyon pour une expérience authentique. Parmi les plus réputés : Chez Paul, Daniel et Denise, et Le Garet. »</p>
+            <p class="font-p">Les Halles de Lyon-Paul Bocuse : « Un véritable temple de la gastronomie où les meilleurs artisans de la région se côtoient. »<br> Marché de la Croix-Rousse : «Pour des produits frais et locaux, rendez-vous au marché de la Croix-Rousse, haut en couleur et en saveurs. »</p>
+        </div>
+
+        <div class="cartes-gastronomie">
+          <div class="carte-individuelle">
+              <img src="img/img-gastronomie/bouchon-filles.jpg" alt="le restaurant le bouchon des filles" class="img-resto">
+            <p class="text-cartes"><strong>Le Bouchon des Filles</strong><br>
+              20 Rue Sergent Blandans, <br>69OOO1 Lyon</p>
+              <a href="https://lebouchondesfilles.fr" aria-label="le site web Bouchon des filles" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/chez-Paul.jpg"  alt="Chez Paul" class="img-resto">
+            <p class="text-cartes"><strong>Chez Paul</strong><br>
+              11 Rue Major Martin,  <br>69OOO1 Lyon</p>
+              <a href="https://www.bouchonchezpaul.fr" aria-label="site web bouchon chez Paul" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/le-garet.jpg" alt="le restaurant le Garet" class="img-resto">
+            <p class="text-cartes"><strong>Le Garet</strong><br>
+              7 Rue du Garet,  <br>69OOO1 Lyon</p>
+              <a href="https://www.facebook.com/pages/Le%20Garet/110903482304513" aria-label="site web leur page facebook" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/danieletdenise.jpg" alt="le restaurant Daniel et Denise" class="img-resto">
+            <p class="text-cartes"><strong>Daniel et Denise</strong><br>
+              36 Rue Tramassac, <br>69OOO5 Lyon</p>
+              <a href="https://danieletdenise.fr" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/café-comptoir.jpg" alt="le restaurant Café Comptoir Abel" class="img-resto">
+            <p class="text-cartes"><strong>Café Comptoir Abel</strong><br>
+              20 Rue Sergent Blandans,  <br>69OOO1 Lyon</p>
+              <a href="https://www.maisonabel.fr/maison-abel/le-cafe-comptoir-chez-abel/" aria-label="site web Maison Abel" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/le-musee.jpg" alt="le restaurant le Musée" class="img-resto">
+            <p class="text-cartes"><strong>Le Musée</strong><br>
+              2 Rue des Forces <br>69OOO2 Lyon</p>
+              <a href="https://fr.mappy.com/poi/4d6c7563fc692507b5fe0fd7" aria-label="visitez la page mappy pour y aller" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/lyonnais-bouchon.jpg" alt="le restaurant les Lyonnais Bouchon" class="img-resto">
+            <p class="text-cartes"><strong>Le Bouchon des Filles</strong><br>
+              19 Rue de la Bombarde,  <br>69OOO5 Lyon</p>
+              <a href="https://bouchon-les-lyonnais.com/fr" aria-label="site web les bouchons lyonnais" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/meuniere.jpg" alt="Le restaurant La Meunière" class="img-resto">
+            <p class="text-cartes"><strong>La Meunière</strong><br>
+              11 Rue Neuve,  <br>69OOO1 Lyon</p>
+              <a href="https://www.lameuniere.fr" arial-label="site web la Meunière" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+          <div class="carte-individuelle">
+            <img src="img/img-gastronomie/cafe-federations.jpg" alt="le Café des Fédérations" class="img-resto">
+            <p class="text-cartes"><strong>Le Café des Fédérations,</strong><br>
+              8 Rue Major Martin,  <br>69OOO1 Lyon</p>
+              <a href="https://restaurant-cafedesfederations-lyon.fr" arial-label="site web café fédération" target="_blank" class="cta-btn-resto">visitez leur site</a>
+          </div>
+        </div>
+      </div>
+
+      <!--div guides-->
+     <div class="section-guides" id="guides">
+      <h2 class="font-h2">NOS GUIDES</h2>
+
+      <div class="guides">
+        <div class="carte-guide">
+          <img src="img/guide/lucie.png" alt="guide Lucie" class="photo-guide">
+        </div>
+        <div class="contenue-guide">
+          <p class="nom-guide"><strong>Clara Morel</strong></p>
+          <p class="langue-guide">Français, Anglais, Espagnol</p>
+          <p class="qualite-guide"><strong>Qualités : </strong>Passionnée par l’histoire de l’architecture lyonnaise, Clara est une communicante enthousiaste avec une énergie débordante. Elle est spécialisée dans les circuits culturels et gastronomiques, proposant des visites sur mesure pour les amateurs de cuisine et d’histoire.</p>
+          <p class="faits-notable-guide"><strong>Faits notables : </strong>Clara a travaillé en tant que critique culinaire, et ses recommandations de restaurants sont toujours des perles rares.
+          </p>
+          <div class="bouton-guide"> <a href="mailto:clara.morel@gmail.com" aria-label="contactez votre guide" class="cta-btn-form" >Contactez-moi !</a></div>
+        </div>
+      </div>
+
+      <div class="guides">
+        <div class="carte-guide">
+          <img src="img/guide/Jean.png"  alt="guide Jean" class="photo-guide">
+        </div>
+        <div class="contenue-guide">
+          <p class="nom-guide"><strong>Jean Durand</strong></p>
+          <p class="langue-guide">Français, Chinois, Japonais</p>
+          <p class="qualite-guide"><strong>Qualités : </strong>Jean est un perfectionniste et un grand connaisseur de la culture asiatique, ce qui fait de lui un guide idéal pour les touristes venant d’Asie. Il excelle dans les visites historiques et est toujours prêt à offrir des anecdotes inattendues.</p>
+          <p class="faits-notable-guide"><strong>Faits notables : </strong> Jean a vécu au Japon pendant plusieurs années, où il a enseigné le français avant de revenir à Lyon pour se consacrer au guidage touristique.
+          </p>
+          <div class="bouton-guide"> <a href="mailto:jean.durand@gmail.com" aria-label="contactez votre guide" class="cta-btn-form" >Contactez-moi !</a></div>
+        </div>
+      </div>
+
+      <div class="guides">
+        <div class="carte-guide">
+          <img src="img/guide/olivia.png"  alt="guide olivia" class="photo-guide">
+        </div>
+        <div class="contenue-guide">
+          <p class="nom-guide"><strong>Olivia Garnier</strong></p>
+          <p class="langue-guide">Français, Anglais, Russe</p>
+          <p class="qualite-guide"><strong>Qualités : </strong>Olivia est une historienne de l’art spécialisée dans la Renaissance, elle est parfaite pour les visites thématiques autour des monuments et des musées de Lyon. Très attentive aux détails, elle sait captiver son public avec des récits enrichissants.</p>
+          <p class="faits-notable-guide"><strong>Faits notables : </strong>Olivia a participé à plusieurs recherches archéologiques à Lyon et a même contribué à des expositions au Musée des Beaux-Arts.
+          </p>
+          <div class="bouton-guide"> <a href="mailto:olivia.garnier@gmail.com" aria-label="contactez votre guide" class="cta-btn-form" >Contactez-moi !</a></div>
+        </div>
+      </div>
+
+      <div class="guides">
+        <div class="carte-guide">
+          <img src="img/guide/Theo.png" alt="guide Théo" class="photo-guide">
+        </div>
+        <div class="contenue-guide">
+          <p class="nom-guide"><strong>Théo Bertrand</strong></p>
+          <p class="langue-guide">Français, Anglais, Espagnol</p>
+          <p class="qualite-guide"><strong>Qualités : </strong>Sportif et aventurier, Théo se spécialise dans les tours en plein air, notamment les randonnées dans les collines environnantes et les balades à vélo à travers la ville. Toujours dynamique, il sait motiver et guider les groupes avec enthousiasme.</p>
+          <p class="faits-notable-guide"><strong>Faits notables : </strong>Théo a organisé des courses d’orientation thématiques pour découvrir Lyon sous un angle original.
+          </p>
+          <div class="bouton-guide"> <a href="mailto:theo.bertrand@gmail.com"  aria-label="contactez votre guide" class="cta-btn-form" >Contactez-moi !</a></div>
+        </div>
+      </div>
+    </div>
+</main><!--fin de wrapper-->
+
+
+<!-- Footer -->
+  <footer id="contact">
+    <p class="contact-p">Contact : <a href="https://www.lyon.fr"><strong>Ville de lyon</strong></a></p>
+    <p>&copy; 2024 Découvrir Lyon. Tous droits réservés.</p>
+    <ul>
+      <li><a href="#">Mentions légales</a></li>
+      <li><a href="#">Politique de confidentialité</a></li>
+    </ul>
+  </footer>
+
+  <script> 
+      function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      const burger = document.querySelector('.burger');
+      menu.classList.toggle('active');
+      burger.classList.toggle('active');
+    } 
+  </script>
+
+</body>
+</html>
