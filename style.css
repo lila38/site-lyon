@@ -360,6 +360,7 @@ body {
     }
     .guides {
     flex-direction: column;
+      padding: 1rem;
   }
   .alignement-img {
     flex-direction: column;
